@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+	#zj_2{
+		/*border: 1px solid red;*/	
+		background:rgba(246,250,253,1.00);
+		border-radius: 5px;
+	}
+	#zj_2 table{
+		border-collapse: separate;
+		border-spacing:2em 0.8em; 
+	}
+	.yy{
+		border: 1px solid rgba(8,140,224,1.00);
+		border-radius: 8px;
+		text-align: center;
+	}
+	#button1{
+		background: rgba(146,198,9,1.00);
+	}
+	#button2:hover{
+		background:rgba(151,158,44,1.00);
+	}
+	#button2{
+		background: rgba(100,165,223,1.00);
+	}
+	#zj_3{
+		width: 100%;
+		overflow: hidden;
+	}
+	#zj_3 table{
+		border-collapse: separate;
+		border-spacing: 2em 0.5em;
+	}
+	#zj_3 table tr:hover{
+		background:rgba(36,239,13,1.00);
+	}
+	#od tr td{
+		text-align: center;
+	}
+	#z4{
+		border: 1px solid red;
+		margin-top:15%;
+		height: 200px;
+		background: rgba(98,160,221,1.00);
+	}
+.ss{
+		/*border: 1px solid green;*/
+		width:100%;
+		background:rgba(155,236,16,1.00);
+		display: inline-block;
+		float: left;
+		clear:both;
+		text-align: center;
+		margin: 0;
+		margin-left:20%;
+		margin-top: -210px
+	}
+	.ss input{
+		width:200px;
+		height: 25px;
+		text-align: center;
+		border-radius: 25px;
+	}
+	.ss button{
+		margin-left: 10%;
+	}
+	#but1{
+		background:rgba(53,241,7,1.00);
+	}
+	#but2{
+		background:rgba(8,82,232,1.00);
+	}
+	.gyszj{
+		/*border:10px solid red;*/
+		margin:auto;
+		width:100%;
+		float: left;
+		margin-left: 20%;
+		margin-top: -170px;
+	}
+	.gyszj table{
+		background: rgba(25,172,147,1.00);
+		text-align:center;
+		border-collapse: separate;
+		border-spacing: 4em 2em;
+	}
+	.zjtr{
+	}
+.dingdan{
+			border:1px solid red;
+			width:auto;
+			margin: auto;
+			margin-left: 400px;
+			text-align:center;
+			vertical-align: middle;
+			margin-top:-200px;
+	}
+	.dingdan li{
+			margin:5%;
+			text-align: center;
+	}
+	.dingdan  input[type="button"]{
+			margin:15px;
+			background: rgba(60,123,187,1.00);
+			width: 80px;
+			height: 30px;
+	}
+	.rr{
+		color:rgba(244,235,2,1.00);
+		font-size: 10px;
+	}
+	.dingdan input[type="text"]{
+			border:1px solid green;
+			width:200px;
+			height: 30px;
+			border-radius: 10px ;
+			margin: 15px;
+	}
+	.dingdan select{
+			height:30px;
+			height: 30px;
+			border-radius: 10px ;
+			margin: 15px;
+	}
+	.mm1{
+		border:1px solid rgba(4,245,47,1.00);
+		float: left;
+		margin-left: 20%;
+		margin-top: -200px;
+		width: 70%;
+		height:100%;
+		text-align: center;
+		display:block;
+	}
+	.mm1 input{
+		width: 30%;
+		height: 25px;
+		border:1px solid green;
+		border-radius: 8px;
+		margin:2%;
+	}
+	.mm1 span{
+		font-size:10px;
+		color: rgba(219,191,8,1.00);
+	}
+	.mm1 input[type="button"]{
+		width: 10%;
+		background: rgba(4,219,229,1.00);
+	}

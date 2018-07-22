@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"  name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+<title>超市账单管理系统</title>
+<link type="text/css" rel="stylesheet" href="css/public.css">
+<link type="text/css" href="css/m.css" rel="stylesheet">
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/m.js"></script>
+<!--[if lt IE 9]>
+<script src="js/modernizr.js"></script>
+<![endif]-->
+
+</head>
+<body>
+	<div id="main">
+	<div id="head">
+		<ul>
+		<li><img src="img/buy.png"></li>
+		<li id="head_1"><span>超市账单管理系统</span></li>
+			<li id="head_2"><span>下午好，admin</span></li>
+		<li><input type="button" value="退出" ></li>
+		</ul>
+	</div>
+	<div id="z1">
+		<ul>
+		<li >当前系统时间：<span id="sj"></span></li>
+		<li id="z1ts">温馨提示：为了能正常显示请使用高版本浏览器</li>
+		</ul>
+	</div>
+		<div id="z2">
+			<ul>
+				<li id="gn">功能列表</li>
+				<li id="zd"><img src="img/zd.png"><a href="主页面.html">账单管理</a></li>
+				<li><img src="img/gys.png"><a href="供应商管理主页.html">供应商管理</a></li>
+				<li><img src="img/yh.png"><a href="用户管理.html">用户管理</a></li>
+				<li><img src="img/mm.png"><a href="密码修改.html">密码修改</a></li>
+				<li><img src="img/tc.png"><a href="登录系统页面.html">退出系统</a></li>
+			</ul>
+		</div>
+		<div id="zj">
+			<div id="zj_1"><p><img src="img/home.png">你现在所在的位置是: <strong>供应商管理页面</strong></p></div>
+			</div>
+			</div>
+			<div class="ss">
+					供应商名称：
+					<input type="text" value="请输入供应商的名称">
+					<button id="but1"><img src="img/search.png">查询</button>
+					<button  id="but2"><img src="img/tianjia.png"><a href="添加订单.html">添加订单</a></button>
+			</div>
+			<div class="gyszj">
+				<table>
+						<tr class="zjtr">
+							<td>供应商编码</td>
+							<td>供应商名称</td>
+							<td>联系人</td>
+							<td>联系电话</td>
+							<td>传真</td>
+							<td>创建时间</td>
+							<td>操作</td>
+						</tr>
+						<tr>
+							<td>PRO-CODE—001	</td>
+							<td>测试供应商001</td>
+							<td>韩露</td>
+							<td>15918230478</td>
+							<td>15918230478</td>
+							<td>2015-11-12</td>
+							<td><img src="img/read.png" class="zk">&nbsp;&nbsp;<img src="img/xiugai.png" class="xj">&nbsp;&nbsp;<img src="img/schu.png" class="sq"></td>
+						</tr>
+						<tr class="zjtr">
+							<td>PRO-CODE—001</td>
+							<td>测试供应商001</td>
+							<td>韩露</td>
+							<td>15918230478</td>
+							<td>15918230478	</td>
+							<td>2015-11-12</td>
+							<td><img src="img/read.png" class="zk">&nbsp;&nbsp;<img src="img/xiugai.png" class="xj">&nbsp;&nbsp;<img src="img/schu.png" class="sq"></td>
+						</tr>
+				</table>
+			</div>
+	</body>
+</html>

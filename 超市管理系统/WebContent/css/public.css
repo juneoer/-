@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+		margin:0;
+		padding: 0;
+	}
+	
+	#main{
+		float: left;
+		margin-top: -1%;
+		boder:10px solid green;
+		width: 100%;
+		height: 100%;
+		margin-right:  auto;
+		min-width: 1000px;
+		
+	}
+	
+	li{
+		list-style: none;
+}
+	
+	#head{
+		background:rgba(98,160,221,1.00);
+		width: 100%;
+		height: 45px;
+		
+		
+		
+		
+	}
+	#head ul li{
+		list-style:none;
+		display: inline;
+		text-align: center;
+		margin:0 auto;
+	}
+	#head  input{
+			float: right;
+		margin-top: 0.5%;
+		border-radius: 12px;
+		width: 60px;
+		height: 30px;
+		margin-right: -18%;
+		
+		background:rgba(93,240,24,1.00);	
+	}
+	#head  input:hover{
+			float: right;
+		margin-top: 0.5%;
+		border-radius: 12px;
+		width: 60px;
+		height: 30px;
+		margin-right: -18%;
+		
+		background:rgba(232,210,8,1.00);	
+	}
+	#head_2 span{
+		float: right;
+		margin-right: 15%;
+		margin-top: 0.8%;
+		color: rgba(206,225,5,1.00);
+	}
+	#head_1 span{
+		color:aliceblue;
+		font-size: 25px;
+		font-weight: bold;
+	}
+	
+	#z1{
+		//border: 1px solid red;
+		background: rgba(227,237,246,1.00);
+		margin: 0;
+		
+	}
+	#z1 ul li{
+		list-style:none;
+		display: inline;
+	}
+	#z1ts{
+		float:right;
+		margin-right: 4%;
+		font-weight: bold;
+	}
+	#z2{
+		//border: 1px solid red;
+		box-shadow: 5px 0px 15px  rgba(226,236,245,1.00);
+		background: rgba(245,245,245,1.00);
+		width: 15%;
+		z-index: auto;
+		overflow: hidden;
+		height: 100%;
+		clear: both;
+		
+	}
+	#z2 li {
+		list-style: none;
+		line-height: 200%;
+		
+	
+		
+	}
+	#z2 li:hover{
+		background: rgba(9,230,241,1.00);
+	}
+	#gn{
+		margin-left: -15%;
+		width: 100%;
+		background:rgba(96,179,231,1.00);
+		text-align: center;
+		box-shadow: 5px 5px 2px #ccc;
+		border-radius: 5px;
+		text-align: center;
+	}
+	#zd{
+		background:rgba(146,198,9,1.00);
+		border-radius: 5px;
+		margin-left: -15%;
+		width: 100%;
+		margin-top: 10%;
+		text-align: center;
+	}
+
+	#zj{
+		//border:1px solid green;
+		float:left;
+		margin-left: 20%;
+		width: 75%;
+		margin-top: -275px;
+		overflow: hidden;
+		padding: 0;
+		
+	}
+	#zj_1{
+		//border: 1px solid red;
+		background:rgba(252,253,254,1.00);
+		border-radius: 5px;
+	
+		
+	}
+a{
+	text-decoration: none;
+}

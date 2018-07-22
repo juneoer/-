@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>登录系统页面</title>
+<style>
+	body{
+		//border: 10px solid red;
+		margin:0 auto;
+		padding: 0;
+		background-image: url(img/login_bg.jpg)   ;
+		/*背景图片尺寸*/
+		background-size:100% 200%;
+		width: 100%;
+		height: 90%;
+		
+	}
+	div{
+		//border: 1px solid red;
+		
+		margin:  auto;
+		padding: 1%;
+		width: 70%;
+		height: 12%;
+		
+		text-align: center;
+		
+	}
+	
+	#conten{
+		//border: 2px solid green;
+		background:url(img/formBg.png) no-repeat ;
+		/*背景图片居中*/
+		background-position: center;
+		
+		
+		margin:  auto;
+		text-align: center;
+		
+	}
+	#mm{
+		//border: 10px solid red;
+		margin:0 auto;
+		height: 25%;
+		text-align: center;
+		padding: 20% 10%;
+	}
+	
+	li{
+		list-style: none;
+		margin: 5%;
+		
+	}
+	[type="button"]{
+		border: 3px solid rgba(255,255,255,1.00);
+		background:rgba(63,138,193,1.00);
+		
+		height:30px;
+		width: 20%;
+		text-align: center;
+	}
+	[type="text"]{
+		border: 1px solid #ccc;
+		border-radius: 20px;
+		height:30px;
+	}
+	p{
+		font-size:35px;
+		color:aliceblue;
+		
+		
+	}
+	
+	</style>
+</head>
+
+<body>
+	<div>
+		<span><p>超市账单管理系统</p></span>
+		<div id="conten">
+			<div id="mm">
+		<li>用户名：
+		<input type="text" value="      请输入用户名"></li>
+		<li>密&nbsp;码：
+		<input type="text" value="      请输入密码"></li>
+		&nbsp;&nbsp;&nbsp;<input type="button" value="登录">&nbsp;&nbsp;
+		<input type="button" value="重置">
+		</div>
+		</div>
+	</div>
+</body>
+</html>

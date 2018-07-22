@@ -1,0 +1,8 @@
+#这个是驱动名，
+driver=oracle.jdbc.driver.OracleDriver
+#这个是orac的路径
+url=jdbc:oracle:thin:@localhost:1521:orcl
+#这个是数据库用户名
+user=system
+#这个是数据库密码
+pwd=GK089869114399wq

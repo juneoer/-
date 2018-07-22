@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"  name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+<title>超市账单管理系统</title>
+<link type="text/css" rel="stylesheet" href="css/public.css">
+<link type="text/css" href="css/m.css" rel="stylesheet">
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/m.js"></script>
+<!--[if lt IE 9]>
+<script src="js/modernizr.js"></script>
+<![endif]-->
+
+</head>
+<body>
+	<div id="main">
+	<div id="head">
+		<ul>
+		<li><img src="img/buy.png"></li>
+		<li id="head_1"><span>超市账单管理系统</span></li>
+			<li id="head_2"><span>下午好，admin</span></li>
+		<li><input type="button" value="退出"></li>
+		</ul>
+	</div>
+	<div id="z1">
+		<ul>
+		<li >当前系统时间：<span id="sj"></span></li>
+		<li id="z1ts">温馨提示：为了能正常显示请使用高版本浏览器</li>
+		</ul>
+	</div>
+		<div id="z2">
+			<ul>
+				<li id="gn">功能列表</li>
+				<li id="zd"><img src="img/zd.png"><a href="主页面.html">账单管理</a></li>
+				<li><img src="img/gys.png"><a href="供应商管理主页.html">供应商管理</a></li>
+				<li><img src="img/yh.png"><a href="用户管理.html">用户管理</a></li>
+				<li><img src="img/mm.png"><a href="密码修改.html">密码修改</a></li>
+				<li><img src="img/tc.png"><a href="登录系统页面.html">退出系统</a></li>
+			</ul>
+		</div>
+		<div id="zj">
+			<div id="zj_1"><p><img src="img/home.png">你现在所在的位置是: <strong>账单管理页面</strong></p></div>
+			<div id="zj_2">
+			<table>
+			<tr>
+				<td>
+					商品名称：</td><td>
+				<input type="text" value="请输入商品名称" class="yy"></td>
+				<td>
+				供应商：</td><td>
+				<form>
+					<select class="yy">
+						<option>----请选择----</option>
+						<option>北京市粮油总公司</option>
+						<option>邯郸市五得利面粉厂</option>
+					</select>
+				</form>
+				</td>
+				<td>
+				是否付款：</td><td>
+				<form>
+					<select class="yy">
+						<option>--请选择--</option>
+						<option>已付款</option>
+						<option>未付款</option>
+					</select>
+				</form>
+				</td>
+				<td>
+				<button id="button1" class="yy"><img src="img/search.png">查询</button></td>
+				<td>
+				<button id="button2" class="yy"><img src="img/tianjia.png"><a href="添加订单.html">添加订单</a></button></td>
+				</tr>
+		</table>
+			</div>
+			<div id="zj_3">
+				<table id="od">
+					<tr id="table_1">
+						<td>账单编码</td>
+						<td>商品名称</td>
+						<td>供应商</td>
+						<td>账单金额</td>
+						<td>是否付款</td>
+						<td>创建时间</td>
+						<td>操作</td>
+					</tr>
+					<tr id="table_2">
+						<td>213</td>
+						<td>123</td>
+						<td>北京市粮油总公司	</td>
+						<td>22.00</td>
+						<td>未付款</td>
+						<td>2015-11-12</td>
+						<td><img src="img/read.png" class="zk">&nbsp;&nbsp;<img src="img/xiugai.png" class="xj">&nbsp;&nbsp;<img src="img/schu.png" class="sq"></td>
+					</tr>
+					<tr >
+						<td>PRO-CODE—001</td>
+						<td>测试供应商001</td>
+						<td>邯郸市五得利面粉厂</td>
+						<td>15918230478</td>
+						<td>15918230478</td>
+						<td>2015-11-12</td>
+						<td><img src="img/read.png" class="zk">&nbsp;&nbsp;<img src="img/xiugai.png" class="xj">&nbsp;&nbsp;<img src="img/schu.png" class="sq"></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	<br/>
+	<div id="z4">
+	</div>
+	<div id="d5">
+	</div>
+	</div>
+</body>
+</html>
